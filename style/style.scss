@@ -1,0 +1,21 @@
+// Import @font-face
+@import url(https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap);
+
+
+// Default styling
+*,
+*::after,
+*::before {
+	margin: 0;
+	padding: 0;
+	box-sizing: inherit;
+}
+
+html {
+	box-sizing: border-box;
+	font-size: 62.5%; // 1rem = 10px;
+}
+
+body {
+	font-family: "Poppins", sans-serif;
+}
